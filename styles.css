@@ -10,6 +10,18 @@ body{
     background-color: #35302F;  /* black */
 }
 
+.Links {
+  display: flex;
+  margin: 20px;
+  width: 100;
+  justify-content:center;
+}
+
+.Link_item{
+  padding: 10px;
+  width: 100px;
+}
+
 .cat-pics {
   display: flex;
   justify-content: space-around;
@@ -36,24 +48,33 @@ body{
   background-color: #879754; /* green */
   margin: 30px;
   box-shadow: 15px 15px;
-  padding: 10px;
+  padding: 20px;
   justify-content: space-between;
   border-radius: 15px;
+}
 
+p {
+  font-size: 30px;
+}
+
+h1{
+  font-size: 50px;
 }
 
 p,h1,h2,h3 {
   color: #35302F;
+  font-family: "Times New Roman", Times, serif;
 }
+
+
 
 .menu {
   display: flex;
   background-color: #879754; /* green */
-  justify-content:flex-start;
-  padding: 20px;
   margin: 30px;
-  margin-bottom: 50px;
   box-shadow: 15px 15px;
+  padding: 20px;
+  justify-content: space-between;
   border-radius: 15px;
 }
 
@@ -65,4 +86,22 @@ p,h1,h2,h3 {
 img {
   border-radius: 5%;
   border: 2px solid #35302F;
+}
+
+footer {
+  display: flex;
+  background-color: #879754; /* green */
+  margin: 30px;
+  box-shadow: 15px 15px;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.github{
+}
+
+a {
+  color: #35302F;
+  font-size: 30px;
 }
